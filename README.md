@@ -20,18 +20,7 @@ This makes it ideal for:
 
 ## 🧠 How It Works
 
-1. **Feature Extraction:**
-   Each image is converted into a vector using a pre-trained CNN model (e.g., ResNet50).
-
-2. **Embedding Storage:**
-   The vectors are saved in a local database (NumPy or pickle format).
-
-3. **Query Search:**
-   When a new image is uploaded, the system computes its embedding and finds the top-k most similar images using **cosine similarity**.
-
-4. **Visualization:**
-   The matched images are displayed with similarity scores.
-
+// will add later
 ---
 
 
@@ -48,7 +37,7 @@ Similarity is computed using **cosine similarity** between embeddings:
 \text{similarity}(A, B) = \frac{A \cdot B}{||A|| \times ||B||}
 ]
 
-Where A and B are feature vectors from the CNN model.
+Where A and B are embeddings from CLIP.
 A higher score → greater visual similarity.
 
 ---
