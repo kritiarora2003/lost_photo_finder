@@ -1,0 +1,24 @@
+# 🖼️ Ignore all raw image data and embeddings
+data/
+embeddings/
+
+# 🧠 Ignore Python virtual environment
+venv/
+
+# 🧹 Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧾 Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# 🧰 IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
